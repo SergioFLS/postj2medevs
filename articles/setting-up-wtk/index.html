@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8"></meta>
+        <title>Setting Up the Sun Wireless Toolkit, version 2.5.2</title>
+    </head>
+
+    <body>
+        <h1 id="setting-up-the-sun-wireless-toolkit-version-252">Setting Up the Sun Wireless Toolkit, version 2.5.2</h1>
+<p>Below are the steps I took for installing the Sun WTK, on a Windows XP virtual machine.</p>
+<p>The virtual machine part might not be needed, though I haven&rsquo;t tried this yet.</p>
+<h2 id="virtualbox-and-windows-xp">VirtualBox and Windows XP</h2>
+<p><img src="welcome-to-setup-yaaaaay.png" alt="The initial &amp;ldquo;Welcome to Setup&amp;rdquo; screen from the Windows XP installer"></p>
+<p>Obviously, you&rsquo;re going to need an installation CD. (you should get one by your own, but if you really want a link, &ldquo;WinXPProSP3x86&rdquo; on IA)</p>
+<p>You will also have to set up a new VM. On VirtualBox:</p>
+<ul>
+<li>Create new machine</li>
+<li>Name it whatever you want, set OS to &ldquo;Windows XP (32-bit)&rdquo;</li>
+<li>Create virtual hard drive (10GB is enough)</li>
+<li>Set RAM size (I set 2048 MB, but might be lower depending on what your host machine has)</li>
+<li>Go through the setup as usual</li>
+</ul>
+<p><img src="byebye-to-setup-aw-man.png" alt="The Windows XP desktop with a different wallpaper, after installation was finished."></p>
+<p>Yipee! We need drivers, though&hellip;</p>
+<p>Machine &gt; Insert Guest Additions CD.</p>
+<p>If nothing shows up, go into My Computer, and you should see the VirtualBox icon in the file explorer.</p>
+<p>You will be now installing Guest Additions. If the installer freezes while installing, try disconnecting the VM from the internet. (that did the trick for me)</p>
+<p>After installer is done, reboot and you&rsquo;ve installed VirtualBox and Windows XP!</p>
+<p>You might want to set up shared folders for the next section, though&hellip;</p>
+<h2 id="java-development-kit-jdk">Java Development Kit (JDK)</h2>
+<p>Before installing the WTK, we&rsquo;re going to need a JDK otherwise the installer will complain:</p>
+<blockquote>
+<p>Unable to locate J2SE Development Kit (JDK) (5.0 or later).</p>
+</blockquote>
+<p>Older versions can be downloaded at Oracle, though you&rsquo;ll need a account in order to download the installer&hellip;</p>
+<p>Fortunately, <a href="http://www.oldversion.com/windows/java-platform-7-sdk">There&rsquo;s a mirror of the JDK version 7 at oldversion.com</a>.</p>
+<p>I&rsquo;ve also uploaded another mirror via IPFS, in case the file above gets deleted: <a href="https://ipfs.io/ipfs/QmXUxKGf9TAvwtyQCqNCmcRZS7KvceS7SDesnm7zKa1t8A?filename=jdk-7-windows-i586.exe">QmXUxKGf9TAvwtyQCqNCmcRZS7KvceS7SDesnm7zKa1t8A</a> (please pin, thanks!)</p>
+<h2 id="sun-wireless-toolkit-wtk">Sun Wireless Toolkit (WTK)</h2>
+<p>Same with JDK, it can be download at Oracle, but an account is needed. <a href="https://cdn.discordapp.com/attachments/527605871107375119/627295049406873622/sun_java_wireless_toolkit-2.5.2_01-win.exe">There&rsquo;s a mirror uploaded on Discord</a>.</p>
+<p>IPFS: <a href="https://ipfs.io/ipfs/QmWtrqMehkvfuPKBiQdFUV73P4UXtAFnHP1reZ5S5Agdwa?filename=sun_java_wireless_toolkit-2.5.2_01-win.exe">QmWtrqMehkvfuPKBiQdFUV73P4UXtAFnHP1reZ5S5Agdwa</a></p>
+<p>I disabled Product Updates.</p>
+<p>After installation is done, you might want to create a shortcut of C:\Documents and Settings\{your username}\j2mewtk\2.5.2 for easy access to projects.</p>
+<p>And we&rsquo;ve installed the WTK! Now let&rsquo;s compile something!!</p>
+<h2 id="hello-world">Hello, world!</h2>
+<p>After WTK has started, click on New Project, then:</p>
+<ul>
+<li>set Project Name to whatever you want, I set it &ldquo;hello world&rdquo;.</li>
+<li>set MIDlet Class Name to the path of your main MIDlet class. If it&rsquo;s invalid.helloworld.HelloWorld you will need to create invalid/helloworld/HelloWorld.java in the sources folder.</li>
+</ul>
+<p>After creating the new project, the settings for that project will show up. You can press OK.</p>
+<p>Go to the WTK folder (the one that I created a shortcut of)/apps/{project name}/src/{folders}, then create the .java file (in the example above it would be HelloWorld.java)</p>
+<p>If you can&rsquo;t create a file ending with .java, In Explorer, go to Tools&gt;Folder Options&gt;View and disable &ldquo;Hide extensions for known file types&rdquo;.</p>
+<p>Inside the .java file, write the following:</p>
+<pre tabindex="0"><code>package invalid.helloworld; // you might want to edit this
+
+import javax.microedition.midlet.MIDlet;
+import javax.microedition.lcdui.Form;
+import javax.microedition.lcdui.Display;
+
+public class HelloWorld extends MIDlet { // and this
+	public void startApp() {
+		Form form = new Form(&#34;Hello world?&#34;);
+		form.append(&#34;Hello World!!!&#34;);
+
+		Display.getDisplay(this).setCurrent(form);
+	}
+
+	public void pauseApp() {}
+
+	public void destroyApp(boolean unconditional) {}
+}
+</code></pre><p>On the WTK, click Compile, and it should finish as &ldquo;Build complete&rdquo;.
+Press run, and a simulator window might show up. When it shows the list of MIDlets of your project, press enter, and&hellip;
+<img src="hello-world.png" alt="Hello, World! inside the Sun WTK Simulator"></p>
+<p><strong>YESSSSSSSSSSSS!!!!</strong> The WTK seems to work correctly!</p>
+<p>If you got this far, Congratulations!</p>
+<p>If you got stuck on a section, please, talk about in a chatroom! Or repo issue!</p>
+<h2 id="other-stuff">Other stuff</h2>
+<p>You might want to install Notepad++ if you want a slightly more fancier text editor.</p>
+
+    </body>
+</html>
