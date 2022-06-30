@@ -1,4 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Main Page on post j2me devs.</title><link>/</link><description>Recent content in Main Page on post j2me devs.</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 26 Jun 2022 19:07:05 -0400</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>/about/</link><pubDate>Sun, 26 Jun 2022 21:07:03 -0400</pubDate><guid>/about/</guid><description>What is post j2me devs? post j2me devs. is a community of developers and hackers interested in old mobile platforms, such as J2ME.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Main Page on post j2me devs.</title>
+    <link>/</link>
+    <description>Recent content in Main Page on post j2me devs.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Jun 2022 19:07:05 -0400</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Sun, 26 Jun 2022 21:07:03 -0400</pubDate>
+      
+      <guid>/about/</guid>
+      <description>What is post j2me devs? post j2me devs. is a community of developers and hackers interested in old mobile platforms, such as J2ME.
 It started first as a Discord server in Feburary 2021 created by SergioFLS (me! hi!!). Later got bridged to Matrix due to concerns with the Discord service by the creator.
 As of writing, there are 7 different chatrooms (channels on Discord):
-#general: Chat about anything J2ME related #developing: Questions/discussions about J2ME dev #modding-re: Questions/discussions about J2ME modding #showcase: Show your works here!</description></item></channel></rss>
+#general: Chat about anything J2ME related #developing: Questions/discussions about J2ME dev #modding-re: Questions/discussions about J2ME modding #showcase: Show your works here!</description>
+    </item>
+    
+  </channel>
+</rss>
