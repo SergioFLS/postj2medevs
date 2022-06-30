@@ -1,0 +1,4 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'post j2me devs.'
+theme = 'pjdtheme'
