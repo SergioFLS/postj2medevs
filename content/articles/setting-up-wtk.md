@@ -20,6 +20,7 @@ You will also have to set up a new VM. On VirtualBox:
 - Name it whatever you want, set OS to "Windows XP (32-bit)"
 - Create virtual hard drive (10GB is enough)
 - Set RAM size (I set 2048 MB, but might be lower depending on what your host machine has)
+- Mount the installation ISO
 - Go through the setup as usual
 
 ![The Windows XP desktop with a different wallpaper, after installation was finished.](byebye-to-setup-aw-man.png)
