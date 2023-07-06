@@ -27,7 +27,7 @@ If this site looks outdated, that's because of two reasons:
 ## Contact
 You can contact SergioFLS, the maintainer of the chatrooms and this site, via:
 - Matrix: sergiofls@matrix.org
-- Discord: SergioFLS#8831
+- Discord: sergiofls
 - Mastodon: @sergiofls@noc.social
 - Reddit: [[HTTPS] /u/SergioFLS](https://old.reddit.com/user/SergioFLS) (my client of choice doesn't support chat)
 ## External links
