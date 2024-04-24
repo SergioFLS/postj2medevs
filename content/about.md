@@ -29,6 +29,7 @@ You can contact SergioFLS, the maintainer of the chatrooms and this site, via:
 - Matrix: sergiofls@matrix.org
 - Discord: sergiofls
 - Mastodon: @sergiofls@noc.social
+- E-mail: sergfls_public+postjdevs@disroot.org
 - Reddit: [[HTTPS] /u/SergioFLS](https://old.reddit.com/user/SergioFLS) (my client of choice doesn't support chat)
 ## External links
 
