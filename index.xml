@@ -4,32 +4,23 @@
     <title>Main Page on post j2me devs.</title>
     <link>/</link>
     <description>Recent content in Main Page on post j2me devs.</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 Jun 2022 19:07:05 -0400</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Jun 2022 21:20:50 -0400</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Setting Up the Sun Wireless Toolkit, version 2.5.2</title>
       <link>/articles/setting-up-wtk/</link>
       <pubDate>Wed, 29 Jun 2022 21:20:50 -0400</pubDate>
-      
       <guid>/articles/setting-up-wtk/</guid>
-      <description>Setting Up the Sun Wireless Toolkit, version 2.5.2 Below are the steps I took for installing the Sun WTK, on a Windows XP virtual machine.
-The virtual machine part might not be needed, though I haven&amp;rsquo;t tried this yet.
-VirtualBox and Windows XP Obviously, you&amp;rsquo;re going to need an installation CD. (you should get one by your own, but if you really want a link, &amp;ldquo;WinXPProSP3x86&amp;rdquo; on IA)
-You will also have to set up a new VM.</description>
+      <description>Setting Up the Sun Wireless Toolkit, version 2.5.2 Below are the steps I took for installing the Sun WTK, on a Windows XP virtual machine.&#xA;The virtual machine part might not be needed, though I haven&amp;rsquo;t tried this yet.&#xA;VirtualBox and Windows XP Obviously, you&amp;rsquo;re going to need an installation CD. (you should get one by your own, but if you really want a link, &amp;ldquo;WinXPProSP3x86&amp;rdquo; on IA)&#xA;You will also have to set up a new VM.</description>
     </item>
-    
     <item>
       <title>About</title>
       <link>/about/</link>
       <pubDate>Sun, 26 Jun 2022 21:07:03 -0400</pubDate>
-      
       <guid>/about/</guid>
-      <description>What is post j2me devs? post j2me devs. is a community of developers and hackers interested in old mobile platforms, such as J2ME.
-It started first as a Discord server in Feburary 2021 created by SergioFLS (me! hi!!). Later got bridged to Matrix due to concerns with the Discord service by the creator.
-As of writing, there are 7 different chatrooms (channels on Discord):
-#general: Chat about anything J2ME related #developing: Questions/discussions about J2ME dev #modding-re: Questions/discussions about J2ME modding #showcase: Show your works here!</description>
+      <description>What is post j2me devs? post j2me devs. is a community of developers and hackers interested in old mobile platforms, such as J2ME.&#xA;It started first as a Discord server in Feburary 2021 created by SergioFLS (me! hi!!). Later got bridged to Matrix due to concerns with the Discord service by the creator.&#xA;As of writing, there are 7 different chatrooms (channels on Discord):&#xA;#general: Chat about anything J2ME related #developing: Questions/discussions about J2ME dev #modding-re: Questions/discussions about J2ME modding #showcase: Show your works here!</description>
     </item>
-    
   </channel>
 </rss>

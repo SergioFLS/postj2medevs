@@ -4,20 +4,16 @@
     <title>Articles on post j2me devs.</title>
     <link>/articles/</link>
     <description>Recent content in Articles on post j2me devs.</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Jun 2022 21:20:50 -0400</lastBuildDate><atom:link href="/articles/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Jun 2022 21:20:50 -0400</lastBuildDate>
+    <atom:link href="/articles/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Setting Up the Sun Wireless Toolkit, version 2.5.2</title>
       <link>/articles/setting-up-wtk/</link>
       <pubDate>Wed, 29 Jun 2022 21:20:50 -0400</pubDate>
-      
       <guid>/articles/setting-up-wtk/</guid>
-      <description>Setting Up the Sun Wireless Toolkit, version 2.5.2 Below are the steps I took for installing the Sun WTK, on a Windows XP virtual machine.
-The virtual machine part might not be needed, though I haven&amp;rsquo;t tried this yet.
-VirtualBox and Windows XP Obviously, you&amp;rsquo;re going to need an installation CD. (you should get one by your own, but if you really want a link, &amp;ldquo;WinXPProSP3x86&amp;rdquo; on IA)
-You will also have to set up a new VM.</description>
+      <description>Setting Up the Sun Wireless Toolkit, version 2.5.2 Below are the steps I took for installing the Sun WTK, on a Windows XP virtual machine.&#xA;The virtual machine part might not be needed, though I haven&amp;rsquo;t tried this yet.&#xA;VirtualBox and Windows XP Obviously, you&amp;rsquo;re going to need an installation CD. (you should get one by your own, but if you really want a link, &amp;ldquo;WinXPProSP3x86&amp;rdquo; on IA)&#xA;You will also have to set up a new VM.</description>
     </item>
-    
   </channel>
 </rss>
